@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito';
+}
+.header
+{
+  display: flex;
+  width: 100%;
+  background-color: red;
+  justify-content: space-around;
+  
+}
+.home-Container
+{
+  display: flex;
+  min-height: 100vh;
+  background-color: yellow;
+}
+.table-Header
+{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: pink;
+  margin-right: 1rem;
+}
